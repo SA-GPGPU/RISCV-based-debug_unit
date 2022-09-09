@@ -1,5 +1,5 @@
 # RISCV-based-debug_unit
-This module is an implementation of a debug unit compliant with the [RISC-V debug specification 0.13.2]
+This module is an implementation of a debug unit compliant with the [RISC-V debug specification 0.13.2] (https://github.com/riscv/riscv-debug-spec) 
 
 
 # Implementation
