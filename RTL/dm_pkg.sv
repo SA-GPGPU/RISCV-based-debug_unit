@@ -49,7 +49,19 @@ typedef struct packed {
 
 
  
-
-
-
+ 
+ /////////////////////////////////////////////////////////////////////////
+ /////////////////////////        DTM CSRs        ////////////////////////
+ /////////////////////////////////////////////////////////////////////////
+ 
+  typedef struct packed {
+    logic [31:18] zero1;
+    logic         dmihardreset;
+    logic         dmireset;
+    logic         zero0;
+    logic [14:12] idle;
+    logic [11:10] dmistat;
+    logic [9:4]   abits;
+    logic [3:0]   version;
+  } dtmcs_t;
 endpackage : dm
